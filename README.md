@@ -13,8 +13,10 @@ STEP 01 - Defines the General  HTML/CSS Structure and organize the elements insi
 STEP 02 - Import the image and Configured the background, font-style, font-size and font-family
 STEP 03 - Configure the Div using border-radius, defined the width/height, background, border-radius,display flex directions. OBS: For me this was kinda difficult, i've find some help in W3School..
 STEP 04 - Configure all the margins, paddings and some details that pass through ( I have some problem with )
-STEP 05- Here I had some problems, my layout was breaking as it was decreasing to test liquidity, after racking my brain, i try put all of my layout inside a Div with class container. didnt break anymore.
-
+STEP 05- Here I had some problems, my layout was breaking as it was decreasing to test liquidity, after racking my brain, i try put all of my layout inside a Div with class container. didnt break anymore
+##### UPDATE #####
+As commented By [@Lucas](https://www.frontendmentor.io/profile/correlucas) I resolve so make some Changes 
+Change all the px to rem and try to make the code more semantics, i'm new on that so, feel free to check and comment if is something i could change
 
 ### Built with
 

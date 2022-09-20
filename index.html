@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css"> <!-- My External Sheet-->
     
     <title> Frontend Mentor | QR code component</title>
 
@@ -14,22 +14,23 @@
   </head>
   <body>
 
-      <div id="container">
+      <main role="main"> <!--Main container -->
         
-        <div class="qr-code">
-            <img src="images/image-qr-code.png" alt="QRCODE Image to scan">
+        <div role="Qr-code-image" class="qr-code" >
+            <img src="images/image-qr-code.png" alt="QRCODE Image to scan"> <!--acessibility-->
 
-            <div>
-              <h3>Improve your front-end skills by building projects</h3>
+            <div role="contentinfo">
+              <h1>Improve your front-end skills by building projects</h1>
 
               <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
             </div>
         </div>      
       
-        <div class="attribution">
+        <div role="link" class="attribution">
             Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-            Coded by <a href="#">Jhonatan</a>.
+            Coded by <a href="https://twitter.com/JhonnyDomingues" target="_blank">Jhonatan</a>. <!--twitter LINK-->
+
         </div>
-    </div>
+    </main> <!--The End of Main Container-->
   </body>
 </html>
